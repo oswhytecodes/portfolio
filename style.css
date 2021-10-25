@@ -3,7 +3,6 @@ html {
 }
 body { 
     margin: 0 auto;
-    background-image: url(images/wallpaper.jpeg);
     background-color: rgba (255, 235, 205, 0.603);
     background-size: cover;
     background-position: center;
@@ -11,21 +10,33 @@ body {
 } 
 .hero {
     font-family: Helvetica;
-    font-size: 50px;
+    font-size: 40px;
     padding-left: 40px;
 }
-nav ul li { font-size: 20px;
+img {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    border-radius: 70px;
+
+}
+nav ul li { 
+  
+    font-size: 20px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-left: 30px;
     display: inline-block;
-    list-style: none;
-    margin: 10px 10px;
-    font-weight: bolder;
+    
+}
+.list 
+{
+    color: white;
 }
 nav a { 
     text-decoration: none;
     color: rgb(37, 30, 10);
 }
-main {
+section {
     height: 320px;
     padding: 40px;
     margin: 0 auto;
@@ -34,7 +45,6 @@ p {
     font-family: arial;
     color: rgb(10, 1, 1);
     font-size: 18px;
-    width: 300px;
 }
 footer {
     height: 40px;
