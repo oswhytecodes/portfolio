@@ -1,12 +1,17 @@
 
 html {
+    width: 100%;
     box-sizing: border-box;
 }
-.nav-list {
+li {
     display: inline-block;
 }
 .logo {
     width: 100px;
     height: 100px;
     border-radius: 50px;
+}
+form {
+    text-align: left;
+    display: inline;
 }
