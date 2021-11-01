@@ -1,16 +1,35 @@
-
-html {
-    width: 100%;
+* , 
+*::before,
+*::after {
     box-sizing: border-box;
 }
+
+body,
+h1,
+h2,
+h3,
+p {
+    margin, 0;
+}
+
 li {
     display: flex;
     flex-direction: row;
+    
 }
 .logo {
     width: 100px;
     height: 100px;
     border-radius: 50px;
+}
+header {
+background-color: #a3e0fa;
+padding: 40px 20px;
+width: 100%;
+}
+a {
+color: #26343b;
+text-decoration: none;
 }
 form {
     text-align: left;
