@@ -12,7 +12,7 @@ p {
     margin, 0;
 }
 
-li {
+ul {
     display: flex;
     flex-direction: row;
     
