@@ -19,7 +19,6 @@ header {
 }
 .primary-nav {
     display: flex;
-    flex-direction: row;
     align-items: center;
 }
 .logo {
@@ -28,9 +27,12 @@ header {
     border-radius: 50px;
 }
 ul {
-    list-style: none;}
-li a {
+    list-style: none;
+}
+li {
 color: #26343b;
+}
+a {
 text-decoration: none;
 }
 
