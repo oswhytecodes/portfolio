@@ -1,5 +1,7 @@
 # portfolio - A BLACK WOMAN MADE ME
-A site for Black Women
+A site for highlighting creative Black Women
+LOGO I DESIGNED
+![favicon tiny tiny-8](https://user-images.githubusercontent.com/92553207/142665307-4f28dbf1-b1a2-4a85-8ba8-80c7fae84216.png)
 
 This will be my future website to show off all my skills
 The premise of this website is an idea I had, I will be highlight Black female creators from different fields
@@ -34,5 +36,4 @@ menu/navBar/logo <br>
   .google.com searcg results <br>
   .MY APP :) <br>
   
-  LOGO I DESIGNED
-  ![favicon-8](https://user-images.githubusercontent.com/92553207/142662943-bf48c6e2-e0a0-4d5f-9adc-4370c7e4deb5.png)
+  
