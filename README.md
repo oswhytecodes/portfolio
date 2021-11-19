@@ -1,16 +1,14 @@
 # portfolio - A BLACK WOMAN MADE ME
 A site for Black Women
-![favicon-8](https://user-images.githubusercontent.com/92553207/142662943-bf48c6e2-e0a0-4d5f-9adc-4370c7e4deb5.png)
-
 
 This will be my future website to show off all my skills
 The premise of this website is an idea I had, I will be highlight Black female creators from different fields
 Artists, Designers, crochet/knitting artists. Pretty much if they make things I want to highlight them.
 I will learn about API's and find a free one to build a working site
 
-<strong>Live </strong> - https://oswhyteknits.github.io/portfolio/
+<strong>LIVE </strong> - https://oswhyteknits.github.io/portfolio/
 
-<strong>Important Things to Consider</strong> <br>
+<strong>IMPORTANT THINGS TO CONSIDER</strong> <br>
 menu/navBar/logo <br>
 .responsive design <br>
 .align items <br>
@@ -19,12 +17,12 @@ menu/navBar/logo <br>
 .add a proper footer <br>
 .image optimization  <br>
 
-<strong>Confusing Topics</strong> <br>
+<strong>CONFUSING TOPICS</strong> <br>
 .role <br>
 .attribute selectors <br>
 .child selectors <br>
 
-<strong>What to practice</strong>  <br>
+<strong>WHAT TO PRACTICE</strong>  <br>
  .inspecting a page <br>
  .debugging <br>
  .reading code <br>
@@ -35,3 +33,6 @@ menu/navBar/logo <br>
   .google.com clone <br>
   .google.com searcg results <br>
   .MY APP :) <br>
+  
+  LOGO I DESIGNED
+  ![favicon-8](https://user-images.githubusercontent.com/92553207/142662943-bf48c6e2-e0a0-4d5f-9adc-4370c7e4deb5.png)
