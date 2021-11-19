@@ -11,11 +11,11 @@ I will learn about API's and find a free one to build a working site
 <strong>LIVE </strong> - https://oswhyteknits.github.io/portfolio/
 
 <strong>IMPORTANT THINGS TO CONSIDER</strong> <br>
-menu/navBar/logo <br>
+.menu/navBar/logo <br>
 .responsive design <br>
 .align items <br>
 .add working buttons <br>
-.add forms and a submit button (Keep your forms simple, no distractive elements, no placeholders (Add your labels)) <br> <br>
+.add forms and a submit button (Keep your forms simple, no distractive elements, no placeholders (Add your labels)) <br>
 .add a proper footer <br>
 .image optimization  <br>
 
