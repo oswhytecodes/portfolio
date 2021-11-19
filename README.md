@@ -8,30 +8,30 @@ The premise of this website is an idea I had, I will be highlight Black female c
 Artists, Designers, crochet/knitting artists. Pretty much if they make things I want to highlight them.
 I will learn about API's and find a free one to build a working site
 
-Live - https://oswhyteknits.github.io/portfolio/
+<strong>Live </strong> - https://oswhyteknits.github.io/portfolio/
 
-<u>Important Things to Consider</u>
-.menu/navBar/logo
-.responsive design
-.align items
-.add working buttons
-.add forms and a submit button (Keep your forms simple, no distractive elements, no placeholders (Add your labels))
-.add a proper footer
-.image optimization 
+<strong>Important Things to Consider</strong> <br>
+menu/navBar/logo <br>
+.responsive design <br>
+.align items <br>
+.add working buttons <br>
+.add forms and a submit button (Keep your forms simple, no distractive elements, no placeholders (Add your labels)) <br> <br>
+.add a proper footer <br>
+.image optimization  <br>
 
-<u>Confusing Topics</u>
-.role
-.attribute selectors
-.child selectors
+<strong>Confusing Topics</strong> <br>
+.role <br>
+.attribute selectors <br>
+.child selectors <br>
 
-<u>What to practice</u> 
- .inspecting a page
- .debugging
- .reading code
- .command line
+<strong>What to practice</strong>  <br>
+ .inspecting a page <br>
+ .debugging <br>
+ .reading code <br>
+ .command line <br>
   
-<u>FUTURE PROJECTS</u> 
-  .technical documentation
-  .google.com clone
-  .google.com searcg results
-  .MY APP :)
+<strong>FUTURE PROJECTS</strong>  <br>
+  .technical documentation <br>
+  .google.com clone <br>
+  .google.com searcg results <br>
+  .MY APP :) <br>
