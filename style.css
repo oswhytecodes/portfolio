@@ -1,5 +1,4 @@
 :root {
-
     --clr-primary-500: #aa6f5d;
     --clr-neutral-100: #ddc0b4;
     --clr-background-200:  #D1AE9B;
@@ -25,17 +24,16 @@ nav {
     justify-self: center;
     align-items: center;
     width: 100%;
-    height: 3.4em;
-    background-color: grey;
-    padding: 1.2em;  
+    background-color: rgb(26, 25, 25);
+    padding: 1.6em;  
 }
 ul  {
     display: flex;
     justify-content: space-evenly;
-  
 }
-li {
+nav li {
     list-style: none;
+    font-size: 1.3rem;
 }
 a {
     text-decoration: none;
@@ -43,7 +41,7 @@ a {
 }
 .logo {
     position: absolute;
-    top: 0em;
+    top: .5em;
     width: 50px;
     border-radius: 50px;
 }
@@ -60,8 +58,9 @@ a {
 span {
     color: black;
 }
+
 section {
-    margin: 3em auto;
+    margin: 3em 2em;
 }
 .section-header {
     font-family: helvetica;
