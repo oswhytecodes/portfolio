@@ -1,5 +1,5 @@
 :root {
-    --clr-primary-500: #aa6f5d;
+    --clr-primary-500: #f5d682;
     --clr-neutral-100: #ddc0b4;
     --clr-background-200:  #D1AE9B;
 
@@ -61,7 +61,7 @@ main{
     padding: 0;
     font-family: var(--ff-primary);
     font-size: 3rem;
-    color: orange;
+    color: var(--clr-primary-500);
 }
 span {
     color: black;
