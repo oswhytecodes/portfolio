@@ -60,8 +60,13 @@ main{
 .hero-header {
     padding: 0;
     font-family: var(--ff-primary);
+<<<<<<< HEAD
     font-size: 10rem;
     color: var(--clr-primary-500)
+=======
+    font-size: 3rem;
+    color: var(--clr-primary-500);
+>>>>>>> b2ec3d7603dab1514499d41c9ee5485c1b04abe0
 }
 span {
     color: black;
