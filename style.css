@@ -60,13 +60,8 @@ main{
 .hero-header {
     padding: 0;
     font-family: var(--ff-primary);
-<<<<<<< HEAD
-    font-size: 10rem;
+    font-size: 7rem;
     color: var(--clr-primary-500)
-=======
-    font-size: 3rem;
-    color: var(--clr-primary-500);
->>>>>>> b2ec3d7603dab1514499d41c9ee5485c1b04abe0
 }
 span {
     color: black;
@@ -81,12 +76,16 @@ section {
 }
 
 /* Footer */
-
+.footer{
+    margin-top: 3e;
+}
 .footer-nav {
     display: flex;
-    justify-content: left;
 }
-
+.footer-ul {
+    margin: 0 auto;
+    float: right;
+}
 .footer_svg {
     width: 5%;
 }
