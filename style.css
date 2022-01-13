@@ -1,7 +1,7 @@
 :root {
     --clr-primary-500: #f5d682;
     --clr-grey-100: #1a1919;
-    --clr-background-200: #D1AE9B;
+    --clr-text-200: #eee;
 
     --ff-primary: 'Roboto', Sans-Serif;
     --ff-secondary: 'Cabin', Sans-Serif;
@@ -19,7 +19,7 @@ body {
     width: 100%;
     margin: 0 auto;
     background-color: black;
-    color: white;
+    color: var(--clr-text-200);
     font-family: var(--ff-primary);
 }
 
@@ -55,10 +55,7 @@ a {
 
 /* Main */
 main {
-    padding: 0 .9em;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
+    padding: 0 1em;
 }
 
 .hero_body {
@@ -66,8 +63,8 @@ main {
 }
 
 .hero-header {
-
     font-family: var(--ff-primary);
+    font-weight: bolder;
     font-size: 5rem;
     color: var(--clr-primary-500)
 }
