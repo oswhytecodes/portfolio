@@ -12,29 +12,39 @@
 
 <body>
 
-  <header>
-    <nav>
-      <ul class="nav-list">
+    <header>
+      <nav>
         <a href="index.html"> <img class="logo" src="images/logo.png" alt="logo" title="logo"></a>
-        <li> <a href="artists.html">artists.</a> </li>
-        <li> <a href="about.html">about.</a> </li>
-        <li> <a href="contact.html">contact.</a> </li>
-      </ul>
-    </nav>
-  </header>
+        <ul class="nav-list">
+         
+          <li> <a href="artists.html">artists.</a> </li>
+          <li> <a href="about.html">about.</a> </li>
+          <li> <a href="contact.html">contact.</a> </li>
+        </ul>
+      </nav>
+    </header>
+    
+    <!-- Form -->
 
-<!-- Form -->
-  <section>
-    <span class="section-header"> Contact</span>
-    <p> Feel free to contact us</p>
-    <form>
-      <label> First Name </label>
-      <input type="text" id="fname" name="firstname" placeholder="First Name"> <br>
-      <label> Last Name </label>
-      <input type="text" id="lname" name="lastname" placeholder="Last Name"> <br>
-      <label> Email</label>
-      <input type="text" id="email" name="emailaddress" placeholder="Email Address"> <br>
-    </form>
+  <main>
+    <section >
+      <span class="section-header"> Contact</span>
+      <p class="section-paragraph"> Feel free to contact us</p>
+      <div class="contact-bg">
+        <form>
+          <div class="contact-form">
+            <label> First Name </label>
+            <input type="text" id="fname" name="firstname" placeholder="First Name"> <br>
+            <label> Last Name </label>
+            <input type="text" id="lname" name="lastname" placeholder="Last Name"> <br>
+            <label> Email</label>
+            <input type="text" id="email" name="emailaddress" placeholder="Email Address"> <br>
+          </div>
+        </form>
+        <div class="btn"><button class="contact-btn"> SIGN UP</button></div>
+      </div>
+     
+  </main>
 
   </section>
 </body>
