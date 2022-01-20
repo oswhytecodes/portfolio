@@ -17,37 +17,82 @@
       <a href="index.html"> <img class="logo" src="images/logo.png" alt="logo" title="logo"></a>
       <ul class="nav-list">
 
-        <li> <a href="artists.html">artists.</a> </li>
-        <li> <a href="about.html">about.</a> </li>
-        <li> <a href="contact.html">contact.</a> </li>
+        <li> <a href="#artists">artists.</a> </li>
+        <li> <a href="#about">about.</a> </li>
+        <li> <a href="#contact">contact.</a> </li>
       </ul>
     </nav>
   </header>
 
-  <section class="splash-screen">
+  <!-- <section class="splash-screen">
     <div class="splash-screen__img"></div>
     <script src="script.js"></script>
-  </section>
+  </section> -->
 
   <!--Body -->
   <main>
-    <div class="hero_body">
-      <div class="hero_img"></div>
-      <div class="hero-section">
-        <div class="animation-container">
-          <span class="line-one">A</span><br>
-          <span class="line-two">Black</span><br>
-          <span class="line-three">Woman</span><br>
-          <span class="line-four">Made</span><br>
-          <span class="line-five">Me</span><br>
-        </div>
-        <div class="hero-quote">
-          <p> Celebrating Black female creators across the globe. </p>
+
+    <!-- T O P  -->
+    <section id="hero">
+      <div class="hero_body">
+        <div class="hero_img"></div>
+        <div class="hero-section">
+          <div class="animation-container">
+            <span class="line-one">A</span><br>
+            <span class="line-two">Black</span><br>
+            <span class="line-three">Woman</span><br>
+            <span class="line-four">Made</span><br>
+            <span class="line-five">Me</span><br>
+          </div>
+          <div class="hero-quote">
+            <p> Celebrating Black female creators across the globe. </p>
+          </div>
         </div>
       </div>
-    </div>
+      </div>
+    </section>
 
-</div>
+    <!-- A R T I S T S  -->
+    <section id="artists">
+      <span class="section-header">The Artists</span>
+      <p class="section-paragraph"> Dedicated to creative Black women everywhere</hp>
+        <div class="photogrid">
+          <img src="images/photo1.jpg">
+          <img src="images/photo3.jpg">
+          <img src="images/photo6.jpg">
+          <img src="images/photo4.jpg">
+          <img src="images/photo2.jpg">
+          <img src="images/photo5.jpg">
+        </div>
+    </section>
+
+    <!-- A B O U T -->
+    <section id="about">
+      <span class="section-header"> About</span>
+      <p class="section-paragraph"> The idea started when our founder could not find a space recognizing and celebrating
+        Black female artists like
+        herself. </p>
+    </section>
+
+    <!-- C O N T A C T  -->
+    <section id="contact">
+      <span class="section-header"> Contact</span>
+      <p class="section-paragraph"> Feel free to contact us</p>
+      <div class="contact-bg">
+        <form>
+          <div class="contact-form">
+            <label> First Name </label>
+            <input type="text" id="fname" name="firstname" placeholder="First Name"> <br>
+            <label> Last Name </label>
+            <input type="text" id="lname" name="lastname" placeholder="Last Name"> <br>
+            <label> Email</label>
+            <input type="text" id="email" name="emailaddress" placeholder="Email Address"> <br>
+          </div>
+        </form>
+        <div class="btn"><button class="contact-btn"> SIGN UP</button></div>
+      </div>
+    </section>
+
   </main>
 
   <!-- Footer -->
