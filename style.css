@@ -160,22 +160,12 @@ input {
 }
 
 /* Footer */
-<<<<<<< HEAD
 .footer-bg {
     background-color: var(--clr-grey-100);
     width: 100%;
     padding: 0;
     margin: 2em auto 0;
-=======
-.footer-bg{
-   
-background-color: var(--clr-grey-100);
-width: 100%;
-padding: 0;
-margin: 2em auto 0 ;
->>>>>>> 54767d5ca82b10d77053cbe409acc1c75268b743
 }
-
 .footer-nav {
     display: flex;
     justify-content: center;
