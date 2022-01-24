@@ -47,9 +47,10 @@ section {
     section {
         width: 100%;
         display: block;
-        max-width: 50ch;
+        max-width: 40ch;
         justify-content: center;
         align-items: center; 
+        padding: .6em;
         margin: auto;
 
     }
