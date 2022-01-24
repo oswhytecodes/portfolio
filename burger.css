@@ -1,0 +1,148 @@
+/* Header */
+header {
+    width: 100%;
+}
+
+/*  HEADER Mobile */
+nav {
+    width: 100%;
+    display: block;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--clr-grey-100);
+    padding: .5em 2em;
+    box-shadow: 1px 1px 4px 0 rgba(87, 86, 83, 0.411);
+    margin: 0;
+}
+
+/*  HEADER Large Screen */
+@media screen and (min-width: 680px) {
+    nav {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        background-color: var(--clr-grey-100);
+        padding: .5em 2em;
+        margin: 0;
+    }
+}
+
+/*  LOGO Mobile */
+.logo {
+    display: flex;
+    justify-items: center;
+    width: 3rem;
+    border-radius: 50px;
+}
+
+/* LOGO Large Screen */
+@media screen and (min-width: 680px) {
+    .logo {
+        margin-left: auto;
+        width: 3rem;
+        border-radius: 50px;
+    }
+}
+
+/* MENU LIST ITEMS MOBILE Screen */
+@media screen and (max-width: 680px) {
+    .menu {
+     display: none;
+}
+}
+/* MENU list Large Screen */
+@media screen and (min-width: 680px) {
+    .menu {
+        display: flex;
+        align-items: center;
+        margin-top: 0;
+    }
+}
+.menu-btn:checked ~ .menu {
+    display: block;
+    max-height: 240px; 
+} 
+
+
+/* List ITEMS Mobile Screen */
+li {
+    list-style: none;
+    text-align: center;
+    font-size: 1rem;   
+    margin: 1em auto .5em auto; 
+    
+}
+
+/* LIST ITEMS Large Screen */
+@media screen and (min-width: 680px) {
+    li {
+        list-style: none;
+        font-size: 1rem;
+        padding-left: 3em;
+    }
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: #111;
+    font-size: 1.2rem;
+    transition: font-size .1s ease-in-out;
+}
+/* BURGER BUTTON MOBILE */
+.menu-icon {
+    padding: 1em 1.3em;
+    right: 0;
+    top:15px;
+    cursor: pointer;
+    position: absolute;
+    right: 0;
+}
+/* BURGER BUTTON AT FULL SCREEN */
+@media screen and (min-width:680px) {
+    .menu-icon {
+        display: none;
+
+    }
+}
+/* checkbox */
+.menu-btn {
+    display: none;
+}
+
+
+.nav-icon {
+    position: relative;
+    background-color: #fff;
+    height: 2px;
+    width: 18px;
+    display: block;
+    transition: background 0.2s ease-out;
+}
+
+.nav-icon:before {
+    position: absolute;
+    content: '';
+    background-color: #fff;
+    height: 100%;
+    width: 100%;
+    display: block;
+    transition: all 0.2s ease-out;
+    top: -6px;
+}
+
+.nav-icon:after {
+    position: absolute;
+    content: '';
+    background-color: #fff;
+    height: 100%;
+    width: 100%;
+    display: block;
+    transition: all 0.2s ease-out;
+    top: 6px;
+}

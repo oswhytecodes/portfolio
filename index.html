@@ -8,15 +8,25 @@
   <title>A Black Woman Made Me</title>
   <link href="https://fonts.googleapis.com/css?family=Cabin|Roboto:400,700|Roboto+Condensed:400,700" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
+ <link rel="stylesheet" href="animate.css">
+  <link rel="stylesheet" href="burger.css">
 </head>
 
 <body>
   <!--Header-->
   <header>
-    <nav>
-      <a href="index.html"> <img class="logo" src="images/logo.png" alt="logo" title="logo"></a>
-      <ul class="nav-list">
 
+    <nav>
+      <div class="logo-con"><a href="index.html"> <img class="logo" src="images/logo.png" alt="logo" title="logo"></a>
+      </div>
+      <!-- Burger Menu -->
+      <input class="menu-btn" id="menu-btn" type="checkbox" />
+      <label class="menu-icon" for="menu-btn">
+        <span class="nav-icon"> </span>
+      </label>
+      <!-- Burger Menu -->
+     
+      <ul class="menu">
         <li> <a href="#artists">artists.</a> </li>
         <li> <a href="#about">about.</a> </li>
         <li> <a href="#contact">contact.</a> </li>
@@ -43,12 +53,12 @@
             <span class="line-three">Woman</span><br>
             <span class="line-four">Made</span><br>
             <span class="line-five">Me</span><br>
-          
-             <div class="hero-quote">
-            <p> Celebrating Black female creators across the globe. </p>
+
+            <div class="hero-quote">
+              <p> Celebrating Black female creators across the globe. </p>
+            </div>
           </div>
-          </div>
-         
+
         </div>
       </div>
       </div>
@@ -57,7 +67,8 @@
     <!-- A R T I S T S  -->
     <section id="artists">
       <span class="section-header">The Artists</span>
-      <p class="section-paragraph"> Dedicated to creative Black women everywhere</hp>
+      <p class="section-paragraph"> Dedicated to creative Black women everywhere</p>
+
         <div class="photogrid">
           <img src="images/photo1.jpg">
           <img src="images/photo3.jpg">

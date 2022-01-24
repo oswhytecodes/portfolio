@@ -24,123 +24,70 @@ body {
     font-family: var(--ff-primary);
 }
 
-/* Header */
-nav {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-    width: 100%;
-    background-color: var(--clr-grey-100);
-    padding: 1em;
-    overflow: hidden;
-}
-
-ul {
-    max-width: 800px;
-    margin-left: auto;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-li {
-    list-style: none;
-    margin-left: 3em;
-    font-size: 1rem;
-}
-
-a {
-    text-decoration: none;
-    color: white;
-}
-
-.logo {
-    margin-left: 3em;
-    width: 50px;
-    border-radius: 50px;
-}
 
 /* Main */
 main {
     width: 100%;
 }
-
-.hero_body {
-    margin: 0 auto;
-}
-
 .hero-header {
     font-family: var(--ff-primary);
     font-weight: 900;
     color: var(--clr-accent-500)
 }
-/* quote animation */
-.hero-quote {
-    color: white;
-    font-size: 1rem;
-    font-weight: 400;
-    margin-left: 3.7em ;
-    padding: 0;
-    position: relative;
-    animation: herohidden 2s ease-in-out 5s normal forwards;
-}
-.hero-quote::before {
-    content: "";
-    position: absolute;
-    background: black;
-    width: 100%;
-    height: 100%;
-    animation: hidden 700ms ease-out 6s normal forwards;
-}
-@keyframes herohidden {
-    0% {
-        
-        opacity: 0;
-    }
 
-    100% {
-        opacity: 1;
-    }
-}
-/* end of quote animation */
 
 /* S E C T I O N S */
 section {
     width: 100%;
     height: 100vh;
-    margin: 1em auto;
-    padding: 1em;
+    margin: auto;
+    max-width: 600px;
 }
+@media screen and (max-width: 680px) {
+    section {
+        width: 100%;
+        display: block;
+        max-width: 50ch;
+        justify-content: center;
+        align-items: center; 
+        margin: auto;
 
+    }
+}
+/* i want to change the background for every other section */
+
+section:nth-child(even) {
+   
+}
 .section-header {
     font-family: var(--ff-secondary);
     font-size: 2.7rem;
     font-weight: 900;
-    color: var(--clr-accent-500)
+    color: var(--clr-accent-500);
 }
-.section-header::after {
 
-
-}
 .section-paragraph {
-    margin-top: 1em;
     line-height: 1.2;
+    margin-bottom: 1em;
 }
 
 /* A R T I S T S */
 
 .photogrid {
-    margin-top: 1em;
-    display: inline-grid;
+    padding: 0;
+    margin: 0;
+    display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-auto-flow:row;
-    gap: .5em;
 }
+@media screen and (min-width: 480px) {
+    .photogrid {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+  }
 .photogrid img {
     width: 100%;
     min-width:120px;
-    max-width: 200px;
+    max-width: 100px;
 }
 /* C O N T A C T */
 
@@ -181,14 +128,11 @@ input {
 
 /* F O O T E R */
 
+
 .footer-bg {
     background-color: var(--clr-grey-100);
     width: 100%;
     padding: 0;
-    margin: 2em auto 0;
-   /*  position: absolute;
-    bottom: 0;
-    left: 0; */
 }
 .footer-nav {
     display: flex;
@@ -213,123 +157,4 @@ input {
 }
 
 
-/* animation */
-.animation-container {
-    margin: 0;
-    width: 100%;
-    font-family: Poppins, sans-serif;
-    font-size: 4rem;
-    line-height: 1.4;
-    font-weight: 900;
-    position: relative;
-}
 
-/* Line 1 */
-.line-one {
-    position: relative;
-    max-width: fit-content;
-    animation: move 1s ease 1s normal forwards;
-}
-
-.line-one::after {
-    content: "";
-    position: absolute;
-    background: black;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    animation: hidden 500ms ease-in-out 1s normal forwards;
-}
-
-/* Line 2 */
-.line-two {
-    position: relative;
-    max-width: fit-content;
-    animation: move 1.8s ease-in-out 1.5s normal forwards;
-}
-.line-two::after {
-    content: "";
-    position: absolute;
-    background: black;
-    left: 0;
-    height: 100%;
-    animation: hidden 800ms ease-out 2s normal forwards;
-}
-
-/* Line 3 */
-.line-three {
-    position: relative;
-    max-width: fit-content;
-    animation: move 2s ease-in-out 2.6s normal forwards;
-}
-
-.line-three::after {
-    content: "";
-    position: absolute;
-    background: black;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    animation: hidden 500ms ease-out 3s normal forwards;
-}
-
-/* Line 4 */
-.line-four {
-    position: relative;
-    max-width: fit-content;
-    animation: move 1.5s ease-in-out 4s normal forwards;
-}
-
-.line-four::after {
-    content: "";
-    position: absolute;
-    background: black;
-    left: 0;
-    height: 100%;
-    animation: hidden 500ms ease-out 4.3s normal forwards;
-}
-
-/* Line 5 */
-.line-five {
-    position: relative;
-    max-width: fit-content;
-    animation: move 1s ease-in-out 4.8s normal forwards;
-}
-
-.line-five::after {
-    content: "";
-    position: absolute;
-    background: black;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    animation: hidden 500ms ease-out 5s normal forwards;
-}
-
-@keyframes move {
-    0% {
-        left: 0px;
-        top: 0px;
-    }
-
-    100% {
-        color: #f7d781;
-        margin-left: .9em;
-        top: 0px;
-    }
-}
-
-@keyframes hidden {
-    0% {
-        left: 0px;
-        top: 0px;
-    }
-
-    100% {
-        opacity: 0;
-        margin-left: 2em;
-        top: 0px;
-    }
-}
-
-/* bottom of animation */
