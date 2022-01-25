@@ -41,7 +41,7 @@ nav {
 /* LOGO Large Screen */
 @media screen and (min-width: 680px) {
     .logo {
-        margin-left: 10em;
+        margin-left: 14em;
         border-radius: 50px;
         width: 50px;
         transition: all 1s ease-in;
@@ -104,10 +104,10 @@ a:hover {
 .menu-icon {
     padding: 1em 2em;
     right: 0;
-    top: 10px;
+    top: 14px;
     cursor: pointer;
     position: absolute;
-    right: 0;
+    right: 10px;
 }
 
 /* BURGER BUTTON AT FULL SCREEN */
@@ -128,7 +128,7 @@ a:hover {
     position: relative;
     background-color: var(--clr-grey-500);
     height: 2px;
-    width: 15px;
+    width: 20px;
     display: block;
     transition: background 0.2s ease-out;
     border-radius: 100px;
@@ -142,7 +142,7 @@ a:hover {
     width: 100%;
     display: block;
     transition: all 0.2s ease-out;
-    top: -5px;
+    top: -6px;
 }
 
 .nav-icon:after {
@@ -153,5 +153,5 @@ a:hover {
     width: 100%;
     display: block;
     transition: all 0.2s ease-out;
-    top: 5px;
+    top: 6px;
 }
