@@ -34,7 +34,7 @@ nav {
     display: flex;
     justify-items: center;
     border-radius: 50px;
-    width: 100px;
+    width: 50px;
     transition: all 1s ease-in;
 }
 
@@ -43,7 +43,7 @@ nav {
     .logo {
         margin-left: 10em;
         border-radius: 50px;
-        width: 120px;
+        width: 50px;
         transition: all 1s ease-in;
     }
 }
@@ -76,8 +76,8 @@ li {
     text-align: center;
     font-size: 1rem;
     margin: 1em auto .5em auto;
-
 }
+
 
 /* LIST ITEMS Large Screen */
 @media screen and (min-width: 680px) {
@@ -94,16 +94,17 @@ a {
 }
 
 a:hover {
-    color: #111;
+    display: block;
+    color: rgb(194, 194, 194);
     font-size: 1.2rem;
     transition: font-size .1s ease-in-out;
 }
 
 /* BURGER BUTTON MOBILE */
 .menu-icon {
-    padding: 1em 1.3em;
+    padding: 1em 2em;
     right: 0;
-    top: 8px;
+    top: 10px;
     cursor: pointer;
     position: absolute;
     right: 0;
