@@ -78,6 +78,7 @@ section:nth-child(even) {
     padding: 0;
     margin: auto;
     display: grid;
+    grid-gap: .5em;
     grid-template-columns: 1fr 1fr;
     max-width: 500px;
 }
