@@ -1,170 +1,71 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;900&display=swap");
 
 :root {
-    --clr-accent-500: #f5d682;
-    --clr-grey-100: #727272;
-    --clr-grey-500: #0e0e0e;
-    --clr-text-200: #eee;
+  --clr-accent-500: #f5d682;
+  --clr-grey-100: #727272;
+  --clr-grey-500: #0e0e0e;
+  --clr-text-200: #eee;
 
-    --ff-primary: 'Roboto', sans-serif;
-    --ff-secondary: 'Poppins', sans-serif;
+  --ff-primary: "Roboto", sans-serif;
+  --ff-secondary: "Poppins", sans-serif;
 }
 
 *,
 *::after,
 *::before {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-    width: 100%;
-    background-color: black;
-    color: var(--clr-text-200);
-    font-family: var(--ff-primary);
+  width: 100%;
+  height: 100vh;
+  background-color: gray;
+  color: var(--clr-text-200);
+  font-family: var(--ff-primary);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
 }
-
 
 /* Main */
-main {
-    width: 100%;
+#hero {
+  padding: 4em;
+  border-radius: 10px;
+  background-color: #000000;
 }
 .hero-header {
-    font-family: var(--ff-primary);
-    font-weight: 900;
-    color: var(--clr-accent-500)
-}
-
-
-/* S E C T I O N S */
-section {
-    width: 100%;
-    /* height: 100vh; */
-    margin: auto;
-    max-width: 500px;
-}
-@media screen and (max-width: 680px) {
-    section {
-        width: 100%;
-        display: block;
-        max-width: 40ch;
-        justify-content: center;
-        align-items: center; 
-        padding: .6em;
-        margin: auto;
-
-    }
-}
-/* i want to change the background for every other section */
-.hero {
-    width: 100%;
-    margin-top: 3em;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-section:nth-child(even) {
-   
-}
-.section-header {
-    font-family: var(--ff-secondary);
-    font-size: 2.7rem;
-    font-weight: 900;
-    color: var(--clr-accent-500);
-}
-
-.section-paragraph {
-    line-height: 1.2;
-    margin-bottom: 1em;
-}
-
-/* A R T I S T S */
-
-.photogrid {
-    padding: 0;
-    margin: auto;
-    display: grid;
-    grid-gap: .5em;
-    grid-template-columns: 1fr 1fr;
-    max-width: 500px;
-}
-@media screen and (min-width: 480px) {
-    .photogrid {
-        grid-template-columns: 1fr 1fr 1fr;
-    }
-  }
-.photogrid img {
-    width: 100%;
-    min-width:120px;
-    max-width: 100px;
-}
-/* C O N T A C T */
-
-.contact-form {
-    color: var(--clr-grey-100);
-    font-family: var(--ff-primary);
-}
-form {
-    text-align: left;
-    display: inline;
-}
-.contact-bg {
-    margin-top: .6em;
-    padding: .5em;
-    max-width: 400px;
-    background-color: var(--clr-text-200);
-    border-radius: 8px;
-}
-
-input {
-    margin: .5em;
-}
-
-.btn {
-    text-align: center;
-    margin-top: 1em;
-}
-
-.contact-btn {
-    background-color: var(--clr-accent-500);
-    color: var(--clr-grey-100);
-    letter-spacing: .1rem;
-    font-weight: bold;
-    padding: .5em;
-    border: none;
-    border-radius: 30px;
+  font-family: var(--ff-primary);
+  font-weight: 900;
+  color: var(--clr-accent-500);
 }
 
 /* F O O T E R */
-
-
 .footer-bg {
-    background-color: var(--clr-grey-100);
-    width: 100%;
-    padding: 0;
+  background-color: var(--clr-grey-100);
+  width: 100%;
+  padding: 0;
 }
 .footer-nav {
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    padding: .9em;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  padding: 0.9em;
 }
 
 .footer-text {
-    margin-right: auto;
+  margin-right: auto;
 }
 
 .footer-img {
-    display: flex;
-    margin-left: auto;
-    align-items: center;
+  display: flex;
+  margin-left: auto;
+  align-items: center;
 }
 
 .footer_svg {
-    width: 15px;
-    margin: 0 .5em;
+  width: 15px;
+  margin: 0 0.5em;
 }
-
-
-
