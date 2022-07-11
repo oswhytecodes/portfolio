@@ -8,7 +8,7 @@ The premise of this website is an idea I had, I will be highlight Black female c
 Artists, Designers, crochet/knitting artists. Pretty much if they make things I want to highlight them.
 I will learn about API's and find a free one to build a working site
 
-<strong>LIVE </strong> - https://oswhyteknits.github.io/portfolio/
+<strong>LIVE </strong> - https://oswhytecodes.github.io/portfolio/
 
 <strong>IMPORTANT THINGS TO CONSIDER</strong> <br>
 .menu/navBar/logo <br>
